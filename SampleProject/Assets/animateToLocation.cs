@@ -16,7 +16,7 @@ public class animateToLocation : MonoBehaviour
         
     }
 
-    public navigateTo(){
+    // public navigateTo(){
 
-    }
+    // }
 }
