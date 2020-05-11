@@ -731,7 +731,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 00c249ff6c5ad601
+  metroCertificateNotAfter: 006918744a46d701
   metroApplicationDescription: Template_3D
   wsaImages:
     2031816: Assets/Microsoft.Maps.Unity.Examples/Icon_88x88.png
