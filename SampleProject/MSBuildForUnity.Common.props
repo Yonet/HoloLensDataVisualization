@@ -2,9 +2,9 @@
   
   <!-- These are specific to this Unity project and can't be overridden -->
   <PropertyGroup>
-    <UnityProjectAssetsPath>D:\MapsSDK-Unity\SampleProject\Assets</UnityProjectAssetsPath>
+    <UnityProjectAssetsPath>C:\Users\Aysegul\Documents\Repos\Unity\MapsSDK-Unity-0.7.1\SampleProject\Assets</UnityProjectAssetsPath>
     
-    <_MSBuildForUnityGeneratedOutputDirectory>D:\MapsSDK-Unity\SampleProject\MSBuild</_MSBuildForUnityGeneratedOutputDirectory>
+    <_MSBuildForUnityGeneratedOutputDirectory>C:\Users\Aysegul\Documents\Repos\Unity\MapsSDK-Unity-0.7.1\SampleProject\MSBuild</_MSBuildForUnityGeneratedOutputDirectory>
     <MSBuildForUnityGeneratedProjectDirectory>$(_MSBuildForUnityGeneratedOutputDirectory)\Projects</MSBuildForUnityGeneratedProjectDirectory>
   </PropertyGroup>
   
