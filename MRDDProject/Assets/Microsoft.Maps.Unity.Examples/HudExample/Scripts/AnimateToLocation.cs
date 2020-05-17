@@ -40,10 +40,10 @@ public class AnimateToLocation : MonoBehaviour
             center = new LatLon(40.6153, -120.1153);
             Animate(new MapSceneOfLocationAndZoomLevel(center, currentZoomLevel));
         }
-        else if (location == "Rim")
+        else if (location == "Butler")
         {
-            Debug.Log("Animating to Rim");
-            center = new LatLon(37.86055556, -120.0830556);
+            Debug.Log("Animating to Arson");
+            center = new LatLon(41.3275, -123.3791667);
             Animate(new MapSceneOfLocationAndZoomLevel(center, currentZoomLevel));
         }
         else if (location == "Rough")
@@ -62,6 +62,12 @@ public class AnimateToLocation : MonoBehaviour
         {
             Debug.Log("Animating to K");
             center = new LatLon(38.7925, -120.6022222);
+            Animate(new MapSceneOfLocationAndZoomLevel(center, currentZoomLevel));
+        }
+                else if (location == "Rocky")
+        {
+            Debug.Log("Animating to K");
+            center = new LatLon(39.91194, -122.49306);
             Animate(new MapSceneOfLocationAndZoomLevel(center, currentZoomLevel));
         }
     }

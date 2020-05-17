@@ -23,6 +23,7 @@ public class MapPinService : MonoBehaviour
 
     [SerializeField]
     public int _labelIndex = 2;
+
     // Start is called before the first frame update
     void Awake()
     {
