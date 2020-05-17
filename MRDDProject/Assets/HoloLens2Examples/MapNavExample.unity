@@ -2319,7 +2319,7 @@ MonoBehaviour:
   _center:
     Latitude: 41.3275
     Longitude: -123.37916667
-  _zoomLevel: 11.03
+  _zoomLevel: 10.9
   _minimumZoomLevel: 1
   _maximumZoomLevel: 20
   _mapTerrainType: 0
