@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114794147355131198}
   - component: {fileID: 4867183369306755339}
   - component: {fileID: 5646316331104889296}
-  - component: {fileID: 8595003053954359050}
   - component: {fileID: 916996982396091146}
   m_Layer: 0
   m_Name: ClusterMapPin
@@ -155,18 +154,6 @@ MonoBehaviour:
     Longitude: 0
   AltitudeReference: 2
   Altitude: 0
---- !u!114 &8595003053954359050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366522844636312}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 640888791a51286498b083b38ab9cc57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &916996982396091146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +187,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   OnPointerDragged:
     m_PersistentCalls:
       m_Calls: []
@@ -470,7 +457,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c8bb0be50d3f7f7499b53dd95005ece3, type: 3}
+  - {fileID: 2100000, guid: c6bd404f506e1894289fde7b1689f901, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Microsoft.Maps.Unity.Examples/WeatherCubeExample/WeatherCubeExample.unity
     guid: d4d8c08f5ac87df45ac98bdf7482b624
-  - enabled: 1
+  - enabled: 0
     path: Assets/HoloLens2Examples/MapScene.unity
     guid: f3689f8489fa90f4783bad954dec8857
   - enabled: 0
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MixedRealityToolkit.Examples/Demos/Solvers/Scenes/SolverExamples.unity
     guid: ddad3c804e095ab418ae445c5990b658
+  - enabled: 1
+    path: Assets/HoloLens2Examples/HudNavExample.unity
+    guid: 2d345ffa77b472340b6885dc2db72c3f
   m_configObjects: {}

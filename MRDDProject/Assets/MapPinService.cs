@@ -16,7 +16,7 @@ public class MapPinService : MonoBehaviour
     [SerializeField]
     private TextAsset _mapPinLocationsCsv = null;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         Debug.Assert(_mapPinLayer != null);
         Debug.Assert(_mapPinPrefab != null);
@@ -28,16 +28,29 @@ public class MapPinService : MonoBehaviour
         foreach (var csvLine in lines)
         {
             var csvEntries = csvLine.Split(',');
+            Debug.Assert(csvEntries[4] != null);
+            if (csvEntries[2].ToLower() == "arson" & csvEntries[1] != "0" )
+            {
+                var mapPin = Instantiate(_mapPinPrefab);
+                var size = double.Parse(csvEntries[3], NumberStyles.Number, CultureInfo.InvariantCulture);
+                if(size > 10000){
+                    Debug.Log("scaled pin " + size);
+                    mapPin.transform.localScale = new Vector3(15 , 15, 15);
+            
+                }
+                mapPin.Location = new LatLon(
+                    double.Parse(csvEntries[4], NumberStyles.Number, CultureInfo.InvariantCulture),
+                    double.Parse(csvEntries[5], NumberStyles.Number, CultureInfo.InvariantCulture)
+                );
+                Debug.Log("_mapPinLayer.LayerName" + _mapPinLayer.LayerName);
+                _mapPinLayer.MapPins.Add(mapPin);
+                mapPin.GetComponentInChildren<TextMeshPro>().text = csvEntries[3] == "null" ? "" : csvEntries[3];
 
-            var mapPin = Instantiate(_mapPinPrefab);
-            mapPin.Location = new LatLon(
-                double.Parse(csvEntries[0], NumberStyles.Number, CultureInfo.InvariantCulture),
-                double.Parse(csvEntries[1], NumberStyles.Number, CultureInfo.InvariantCulture)
-            );
-      
-            Debug.Log("_mapPinLayer.LayerName" + _mapPinLayer.LayerName);
-            _mapPinLayer.MapPins.Add(mapPin);
-            mapPin.GetComponentInChildren<TextMeshPro>().text = csvEntries[2].ToLower() == "null" ? "" : csvEntries[2];
+            }
+
+
+
+
         }
     }
 

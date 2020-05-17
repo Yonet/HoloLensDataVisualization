@@ -58,7 +58,7 @@ public class ReverseGeocodeOnClick : MonoBehaviour
             string formattedAddressString = null;
             if (finderResult.Locations.Count > 0)
             {
-                formattedAddressString = finderResult.Locations[0].Address.FormattedAddress;
+                formattedAddressString                                 = finderResult.Locations[0].Address.FormattedAddress;
             }
 
             if (_mapPinPrefab != null)

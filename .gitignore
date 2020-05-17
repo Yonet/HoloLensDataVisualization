@@ -90,3 +90,4 @@ MRDDProject/Nuget.config*
 !/MRDDProject/Assets/MixedRealityToolkit.Providers/WindowsMixedReality/Shared/DotNetAdapter/DotNetAdapter.csproj
 MRDDProject/Assets/MixedRealityToolkit.Providers/WindowsMixedReality/Shared/DotNetAdapter/.bin/
 MRDDProject/Assets/MixedRealityToolkit.Providers/WindowsMixedReality/Shared/DotNetAdapter/.obj/
+MRDDProject/Assets/MixedRealityToolkit.Examples/
