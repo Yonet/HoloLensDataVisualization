@@ -6,7 +6,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -15,7 +15,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -42,7 +42,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -69,7 +69,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -92,7 +92,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -108,7 +108,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -138,7 +138,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -238,7 +238,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -247,7 +247,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -265,7 +265,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -274,7 +274,7 @@
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -283,7 +283,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -292,7 +292,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -301,7 +301,16 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioSource",
+            "fullManagedTypeName": "UnityEngine.AudioSource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -310,7 +319,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -319,7 +328,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -328,7 +337,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -337,7 +346,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -346,7 +355,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -355,7 +364,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -364,7 +373,7 @@
             "fullManagedTypeName": "UnityEngine.TextMesh",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -373,7 +382,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -382,7 +391,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -391,7 +400,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -400,7 +409,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -409,7 +418,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -418,7 +427,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -427,7 +436,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -436,7 +445,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -445,7 +454,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -454,7 +463,7 @@
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -463,7 +472,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -472,7 +481,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -481,7 +490,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -490,7 +499,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -499,7 +508,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -508,7 +517,7 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -517,7 +526,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -526,7 +535,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -535,7 +544,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -544,7 +553,7 @@
             "fullManagedTypeName": "UnityEngine.LightProbes",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -553,7 +562,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -562,7 +571,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
@@ -571,20 +580,13 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/HoloLens2Examples/HudNavExample.unity"
+                "Assets/HoloLens2Examples/MapNavExample.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "AnimateToLocation",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "CopyrightSynchronizer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -652,27 +654,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.HandPhysicsServiceProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.JointKinematicBody",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Extensions.SceneTransitions.SceneTransitionServiceProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile",
@@ -683,13 +664,6 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.AnimatedCursor",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.BaseCursor",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -732,13 +706,6 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.PokePointer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.ScreenSpaceMousePointer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -808,13 +775,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.BoundingBox",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonSize",
             "moduleName": "",
             "usedInScenes": []
@@ -823,6 +783,13 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.FollowMeToggle",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -857,7 +824,7 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -872,6 +839,27 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.Theme",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1004,13 +992,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityMouseInputProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerProfile",
             "moduleName": "",
             "usedInScenes": []
@@ -1060,13 +1041,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile",
             "moduleName": "",
             "usedInScenes": []
@@ -1103,6 +1077,13 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.HoverLight",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.MaintainBorderLightWidth",
             "moduleName": "",
             "usedInScenes": []
         },
