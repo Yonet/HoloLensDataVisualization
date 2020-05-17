@@ -1,0 +1,2 @@
+MicrosoftGeospatialCompressionNative.dll
+AudioPluginMsHRTF.dll
