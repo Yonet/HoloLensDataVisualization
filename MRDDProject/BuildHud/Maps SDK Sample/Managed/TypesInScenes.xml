@@ -34,6 +34,7 @@
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
@@ -54,22 +55,38 @@
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
+		<type fullname="UnityEngine.PhysicMaterial" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AlignToMap" preserve="nothing"/>
 		<type fullname="AnimateToLocation" preserve="nothing"/>
+		<type fullname="ClusterMapPinText" preserve="nothing"/>
 		<type fullname="MapControls" preserve="nothing"/>
 		<type fullname="MapInteractionHandler" preserve="nothing"/>
+		<type fullname="MapPinService" preserve="nothing"/>
 		<type fullname="MapRaycastProviderRegistration" preserve="nothing"/>
+		<type fullname="ReverseGeocodeOnClick" preserve="nothing"/>
 		<type fullname="ToggleImageryType" preserve="nothing"/>
 		<type fullname="ToggleWeatherLayer" preserve="nothing"/>
+		<type fullname="ZoomToClusterMapPin" preserve="nothing"/>
+		<type fullname="ZoomToMapPin" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.Maps.Unity.SupportingScripts">
 		<type fullname="Microsoft.Maps.Unity.HttpTextureTileLayer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.Maps.Unity">
+		<type fullname="Microsoft.Maps.Unity.ClusterMapPin" preserve="nothing"/>
+		<type fullname="Microsoft.Maps.Unity.DefaultElevationTileLayer" preserve="nothing"/>
 		<type fullname="Microsoft.Maps.Unity.DefaultModelTileLayer" preserve="nothing"/>
 		<type fullname="Microsoft.Maps.Unity.DefaultTextureTileLayer" preserve="nothing"/>
+		<type fullname="Microsoft.Maps.Unity.MapCopyrightLayer" preserve="nothing"/>
+		<type fullname="Microsoft.Maps.Unity.MapPin" preserve="nothing"/>
+		<type fullname="Microsoft.Maps.Unity.MapPinLayer" preserve="nothing"/>
 		<type fullname="Microsoft.Maps.Unity.MapRenderer" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.Examples">
+		<type fullname="Microsoft.MixedReality.Toolkit.Examples.Demos.ShowSliderValue" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Experimental.Examples.ScrollableListPopulator" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
 		<type fullname="Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile" preserve="nothing"/>
@@ -81,6 +98,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MeshCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MousePointer" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.PointerHandler" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.PokePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.SpherePointer" preserve="nothing"/>
@@ -91,14 +109,19 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.AppBarButton" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.BoundingBox" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSize" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.FollowMeToggle" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Interactable" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.LoaderController" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ManipulationHandler" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.PinchSlider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButton" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderSounds" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.States" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Theme" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection" preserve="nothing"/>
@@ -162,8 +185,5 @@
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="com.unity.multiplayer-hlapi.Runtime">
-		<type fullname="UnityEngine.Networking.NetworkCallbacks" preserve="nothing"/>
 	</assembly>
 </linker>

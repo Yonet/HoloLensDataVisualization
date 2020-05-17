@@ -36,22 +36,13 @@ public class MapPinService : MonoBehaviour
         foreach (var csvLine in lines)
         {
             var csvEntries = csvLine.Split(',');
-            // Debug.Assert(csvEntries[4] != null);
-            // if (csvEntries[4].ToLower() == "arson")
-            // {
+            
             var mapPin = Instantiate(_mapPinPrefab);
-            var size = double.Parse(csvEntries[5], NumberStyles.Number, CultureInfo.InvariantCulture);
-            if (size > 10000)
-            {
-                Debug.Log("scaled pin " + size);
-                mapPin.transform.localScale = new Vector3(15, 15, 15);
 
-            }
             mapPin.Location = new LatLon(
                 double.Parse(csvEntries[6], NumberStyles.Number, CultureInfo.InvariantCulture),
                 double.Parse(csvEntries[7], NumberStyles.Number, CultureInfo.InvariantCulture)
             );
-            Debug.Log("_mapPinLayer.LayerName" + _mapPinLayer.LayerName);
             _mapPinLayer.MapPins.Add(mapPin);
             mapPin.GetComponentInChildren<TextMeshPro>().text = csvEntries[4] == "null" ? "" : csvEntries[4];
 

@@ -215,6 +215,7 @@ public class MapControls : MonoBehaviour, IMixedRealityPointerHandler, IMixedRea
     {
         if (eventData.MixedRealityInputAction.Description == "Zoom Map")
         {
+            Debug.Log("OnInputChanged ");
             _currentZoomValue = eventData.InputData;
             eventData.Use();
         }
