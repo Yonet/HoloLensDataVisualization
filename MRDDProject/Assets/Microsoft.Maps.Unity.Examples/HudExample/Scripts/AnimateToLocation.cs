@@ -10,26 +10,30 @@ public class AnimateToLocation : MonoBehaviour
 {
     public void Animate(string location)
     {
-        if (location == "North America")
+        if (location == "Rush")
         {
-            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(49.8457301182239, -110.734009177481), 1.9f));
+            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(40.6153, -120.1153), 10.9f));
         }
-        else if (location == "Alaska")
+        else if (location == "Rim")
         {
-            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(61.5830450739248, -154.151974287195), 2.7f));
+            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(37.86055556, -120.0830556), 12.7f));
         }
-        else if (location == "Caribbean")
+        else if (location == "Rough")
         {
-            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(19.76917618445, -73.3561529043696), 4.3f));
+            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(36.87361111, -118.9047222), 14.3f));
         }
-        else if (location == "Great Lakes")
+        else if (location == "Frying Pan")
         {
-            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(44.9620029011226, -85.0208010786911), 4.6f));
+            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(41.7725, -123.3558333), 14.6f));
         }
-        else if (location == "Hawaii")
+        else if (location == "King")
         {
-            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(19.8609249894142, -157.858532034001), 5.6f));
+            Animate(new MapSceneOfLocationAndZoomLevel(new LatLon(38.7925, -120.6022222), 15.6f));
         }
+    }
+
+    public void Zoom(){
+        // MapSceneOfLocationAndZoomLevel
     }
 
     public void Animate(MapScene mapScene)

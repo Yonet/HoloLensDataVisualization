@@ -53,19 +53,9 @@ public class MapPinService : MonoBehaviour
             );
             Debug.Log("_mapPinLayer.LayerName" + _mapPinLayer.LayerName);
             _mapPinLayer.MapPins.Add(mapPin);
-            mapPin.GetComponentInChildren<TextMeshPro>().text = csvEntries[4] == "null" ? "" : csvEntries[3];
-
-            // }
-
-
-
+            mapPin.GetComponentInChildren<TextMeshPro>().text = csvEntries[4] == "null" ? "" : csvEntries[4];
 
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
