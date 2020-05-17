@@ -6220,7 +6220,7 @@ IL_0014:
 	{
 		WaitHandle_tFD46B5B45A6BB296EA3A104C91DF2A7C03C10AC6 * L_2 = V_0;
 		NullCheck(L_2);
-		VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_2);
+		VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_2);
 	}
 
 IL_001b:

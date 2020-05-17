@@ -32727,7 +32727,7 @@ IL_0068:
 		// workItemsWaiting.WaitOne();
 		AutoResetEvent_t2A1182CEEE4E184587D4DEAA4F382B810B21D3B7 * L_16 = __this->get_workItemsWaiting_8();
 		NullCheck(L_16);
-		VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_16);
+		VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_16);
 	}
 
 IL_0074:

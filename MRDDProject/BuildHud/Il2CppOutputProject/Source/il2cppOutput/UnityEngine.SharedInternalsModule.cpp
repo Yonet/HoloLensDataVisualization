@@ -2129,6 +2129,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeMethodAttribute__ctor_m793B5D7530F
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Condition_m0BD35F77FDBCC278203543FB3CAC35A8227474B5_inline (NativeConditionalAttribute_t8F72026EC5B1194F1D82D72E0C76C51D7D7FBD2E * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Bindings.NativeConditionalAttribute::set_Enabled(System.Boolean)
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void NativeConditionalAttribute_set_Enabled_m3584B9F0F4BD7F3F8B8C49595D1900EF01B3C1E0_inline (NativeConditionalAttribute_t8F72026EC5B1194F1D82D72E0C76C51D7D7FBD2E * __this, bool ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_mBF34AC3E165A50B3BE9F49520DDE1851DC7CFF13 (NativeConditionalAttribute_t8F72026EC5B1194F1D82D72E0C76C51D7D7FBD2E * __this, String_t* ___condition0, const RuntimeMethod* method);
 // System.Void System.ArgumentNullException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Boolean System.String::op_Equality(System.String,System.String)
@@ -2321,6 +2323,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_mBF34AC
 		String_t* L_0 = ___condition0;
 		NativeConditionalAttribute_set_Condition_m0BD35F77FDBCC278203543FB3CAC35A8227474B5_inline(__this, L_0, /*hidden argument*/NULL);
 		NativeConditionalAttribute_set_Enabled_m3584B9F0F4BD7F3F8B8C49595D1900EF01B3C1E0_inline(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Bindings.NativeConditionalAttribute::.ctor(System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeConditionalAttribute__ctor_mF73F04D4DA232C93F604BEB97286BA3007B9B95B (NativeConditionalAttribute_t8F72026EC5B1194F1D82D72E0C76C51D7D7FBD2E * __this, String_t* ___condition0, bool ___enabled1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___condition0;
+		NativeConditionalAttribute__ctor_mBF34AC3E165A50B3BE9F49520DDE1851DC7CFF13(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = ___enabled1;
+		NativeConditionalAttribute_set_Enabled_m3584B9F0F4BD7F3F8B8C49595D1900EF01B3C1E0_inline(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2626,6 +2639,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m92618E6DC
 	{
 		String_t* L_0 = ___name0;
 		NativeMethodAttribute__ctor_m1A8CC57006916ACBBBCB515C26224392E8711A22(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Bindings.NativePropertyAttribute::.ctor(System.String,UnityEngine.Bindings.TargetType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativePropertyAttribute__ctor_m361FB4BC7298576F55A0FEA68B0B6AEB976B56A9 (NativePropertyAttribute_tD231CE0D66BEF2B7C0E5D3FF92B02E4FD0365C61 * __this, String_t* ___name0, int32_t ___targetType1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		NativeMethodAttribute__ctor_m1A8CC57006916ACBBBCB515C26224392E8711A22(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = ___targetType1;
+		NativePropertyAttribute_set_TargetType_m8705F4754AA0C953CDA6DDCB95B0276F51FE0146_inline(__this, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }

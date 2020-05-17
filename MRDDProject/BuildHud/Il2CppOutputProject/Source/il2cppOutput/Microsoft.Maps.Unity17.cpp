@@ -426,7 +426,7 @@ struct IList_1_t4397090ED40C511F526E179BBDB0C9A7D9D4CEF8;
 // System.Collections.Generic.IList`1<Microsoft.Geospatial.LatLon>
 struct IList_1_t7D28E94C8CD860F6DA9B3DD2115EAB8F46817198;
 // System.Collections.Generic.IList`1<System.Byte>
-struct IList_1_t1CAEA79DA69DB213621ADF35101FEA835B260445;
+struct IList_1_tD8E671D91FFB753EC5F4FC7C324234892AA95C60;
 // System.Collections.Generic.IList`1<System.Int32>
 struct IList_1_t173B523D8F7A2282FEBD0B90EE77EB21B349F3D1;
 // System.Collections.Generic.IList`1<System.Int32>[]

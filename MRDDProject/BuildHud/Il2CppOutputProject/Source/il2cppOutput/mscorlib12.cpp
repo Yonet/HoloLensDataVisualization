@@ -25394,6 +25394,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalException__ctor_mFEC5FB15E763D38
 		return;
 	}
 }
+// System.Int32 System.Runtime.InteropServices.ExternalException::get_ErrorCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ExternalException_get_ErrorCode_m65A3E5B9866D4E7E1F6F5DFAD66FCF23BA487716 (ExternalException_t68841FD169C0CB00CC950EDA7E2A59540D65B1CE * __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = Exception_get_HResult_m1F2775B234F243AD3D8AAE63B1BB5130ADD29502_inline(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
 // System.String System.Runtime.InteropServices.ExternalException::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExternalException_ToString_mEF88425194F239148DA157C787890D4B2E7FF941 (ExternalException_t68841FD169C0CB00CC950EDA7E2A59540D65B1CE * __this, const RuntimeMethod* method)
 {
@@ -42509,7 +42517,7 @@ IL_0029:
 	{
 		WaitHandle_tFD46B5B45A6BB296EA3A104C91DF2A7C03C10AC6 * L_5 = VirtFuncInvoker0< WaitHandle_tFD46B5B45A6BB296EA3A104C91DF2A7C03C10AC6 * >::Invoke(13 /* System.Threading.WaitHandle System.Runtime.Remoting.Messaging.AsyncResult::get_AsyncWaitHandle() */, __this);
 		NullCheck(L_5);
-		VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_5);
+		VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_5);
 		RuntimeObject* L_6 = __this->get_reply_message_14();
 		return L_6;
 	}

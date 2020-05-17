@@ -7489,6 +7489,24 @@ public:
 };
 
 
+// System.UInt64Enum
+struct  UInt64Enum_tEAD217F175F60689A664303784384DEF759D24C8 
+{
+public:
+	// System.UInt64 System.UInt64Enum::value__
+	uint64_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(UInt64Enum_tEAD217F175F60689A664303784384DEF759D24C8, ___value___2)); }
+	inline uint64_t get_value___2() const { return ___value___2; }
+	inline uint64_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint64_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.Bounds
 struct  Bounds_tA2716F5212749C61B0E7B7B77E0CD3D79B742890 
 {
@@ -19413,6 +19431,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_UnsafeMov_TisUInt16Enum_tB33809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_UnsafeMov_TisUInt32Enum_tE44175EB3151A633676D60A642EDA3BD5C6760DA_TisInt32_t585191389E07734F19F3156FF88FB3EF4800D102_m9F070F2290CD9E4E94BCF50D2EB7A7B41707574A_gshared (uint32_t ___instance0, const RuntimeMethod* method)
 {
 	return static_cast<int32_t>(___instance0);
+}
+// R System.Array::UnsafeMov<System.UInt64Enum,System.Int64>(S)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Array_UnsafeMov_TisUInt64Enum_tEAD217F175F60689A664303784384DEF759D24C8_TisInt64_t7A386C2FF7B0280A0F516992401DDFCF0FF7B436_m7FC1D884B8FCAC20A81C17782AF9A2CFE242E69C_gshared (uint64_t ___instance0, const RuntimeMethod* method)
+{
+	return static_cast<int64_t>(___instance0);
 }
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_m57EE1ACB271D15DD0E2DDD6B28805C31799A0976_gshared (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, String_t* ___methodName0, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args1, const RuntimeMethod* method)

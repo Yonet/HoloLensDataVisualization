@@ -69,6 +69,8 @@
   <ItemGroup>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\com.unity.multiplayer-hlapi.Runtime_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\I18N.CJK_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\I18N.MidEast_CodeGen.c">
@@ -241,6 +243,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UI_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.UNETModule_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UnityAnalyticsModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UnityWebRequestModule_CodeGen.c">
@@ -261,6 +265,14 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp1.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\com.unity.multiplayer-hlapi.Runtime.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\com.unity.multiplayer-hlapi.Runtime1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\com.unity.multiplayer-hlapi.Runtime2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\com.unity.multiplayer-hlapi.Runtime3.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods1.cpp">
@@ -280,6 +292,8 @@
     <ClCompile Include="Source\il2cppOutput\GenericMethods16.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods17.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods18.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods2.cpp">
     </ClCompile>
@@ -307,7 +321,25 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics101.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics102.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics103.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics104.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics105.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics106.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics107.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics108.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics109.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics11.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics110.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics12.cpp">
     </ClCompile>
@@ -617,6 +649,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers52.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers53.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers54.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers6.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers7.cpp">
@@ -874,6 +910,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System6.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System7.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro1.cpp">
@@ -949,6 +987,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsModule1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UIModule.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.UNETModule.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UnityAnalyticsModule.cpp">
     </ClCompile>

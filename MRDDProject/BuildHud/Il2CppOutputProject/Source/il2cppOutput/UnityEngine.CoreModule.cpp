@@ -2874,6 +2874,15 @@ public:
 };
 
 
+// UnityEngine.GL
+struct  GL_t9943600BC77EB1AC120CDD367ADE6F9F23888C99  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.GeometryUtility
 struct  GeometryUtility_t72F2EDF5FBB5A28A1956498064C424AD0379E64F  : public RuntimeObject
 {
@@ -11171,6 +11180,8 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR RuntimeObject* ScriptableRuntimeRefle
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void ScriptableRuntimeReflectionSystemWrapper_set_implementation_m7866062401FA10180983AFE19BA672AE63CED29B_inline (ScriptableRuntimeReflectionSystemWrapper_tDCCCF65DE093A1E4FED4E17FC2F71A8520760CF4 * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableRuntimeReflectionSystemWrapper__ctor_mB936D4EA457BCCBEB0413F3F5B216164D88C4A3F (ScriptableRuntimeReflectionSystemWrapper_tDCCCF65DE093A1E4FED4E17FC2F71A8520760CF4 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.GL::ImmediateColor(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C (float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method);
 // System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray * GameObject_GetComponentsInternal_mAB759217A3AD0831ABD9387163126D391459E1B8 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, Type_t * ___type0, bool ___useSearchTypeAsArrayReturnType1, bool ___recursive2, bool ___includeInactive3, bool ___reverse4, RuntimeObject * ___resultList5, const RuntimeMethod* method);
 // UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
@@ -12571,6 +12582,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_IsPlaying_m63D91E604B906994C
 	bool retVal = _il2cpp_icall_func(___obj0);
 	return retVal;
 }
+// System.Void UnityEngine.Application::set_runInBackground(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_runInBackground_mFA0776084D9A103EE79F8692C3F33BA3248565EC (bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Application_set_runInBackground_mFA0776084D9A103EE79F8692C3F33BA3248565EC_ftn) (bool);
+	static Application_set_runInBackground_mFA0776084D9A103EE79F8692C3F33BA3248565EC_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_set_runInBackground_mFA0776084D9A103EE79F8692C3F33BA3248565EC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::set_runInBackground(System.Boolean)");
+	_il2cpp_icall_func(___value0);
+}
 // System.String UnityEngine.Application::get_streamingAssetsPath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F (const RuntimeMethod* method)
 {
@@ -12618,6 +12638,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_productName_m9F6558
 	static Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_productName()");
+	String_t* retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.String UnityEngine.Application::get_cloudProjectId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2 (const RuntimeMethod* method)
+{
+	typedef String_t* (*Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn) ();
+	static Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_cloudProjectId_m1371260E47D49048AE53E2495CF9B51F1EECCAB2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_cloudProjectId()");
 	String_t* retVal = _il2cpp_icall_func();
 	return retVal;
 }
@@ -27076,6 +27106,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t FrameTimingManager_GetLatestTimings_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.GL::Vertex3(System.Single,System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Vertex3_mE94809C1522CE96DF4C6CD218B1A26D5E60A114E (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method)
+{
+	typedef void (*GL_Vertex3_mE94809C1522CE96DF4C6CD218B1A26D5E60A114E_ftn) (float, float, float);
+	static GL_Vertex3_mE94809C1522CE96DF4C6CD218B1A26D5E60A114E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GL_Vertex3_mE94809C1522CE96DF4C6CD218B1A26D5E60A114E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::Vertex3(System.Single,System.Single,System.Single)");
+	_il2cpp_icall_func(___x0, ___y1, ___z2);
+}
+// System.Void UnityEngine.GL::ImmediateColor(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C (float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method)
+{
+	typedef void (*GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C_ftn) (float, float, float, float);
+	static GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::ImmediateColor(System.Single,System.Single,System.Single,System.Single)");
+	_il2cpp_icall_func(___r0, ___g1, ___b2, ___a3);
+}
+// System.Void UnityEngine.GL::Color(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Color_m6F50BBCC316C56A746CDF224DE1A27FEEB359D8E (Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___c0, const RuntimeMethod* method)
+{
+	{
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_0 = ___c0;
+		float L_1 = L_0.get_r_0();
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_2 = ___c0;
+		float L_3 = L_2.get_g_1();
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_4 = ___c0;
+		float L_5 = L_4.get_b_2();
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_6 = ___c0;
+		float L_7 = L_6.get_a_3();
+		GL_ImmediateColor_mAA84609D132DF4DFFC1166250C49E2C9A1AB696C(L_1, L_3, L_5, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.GL::Begin(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Begin_m9A48BD6A2DA850D54250EF638DF5EC61F83E293C (int32_t ___mode0, const RuntimeMethod* method)
+{
+	typedef void (*GL_Begin_m9A48BD6A2DA850D54250EF638DF5EC61F83E293C_ftn) (int32_t);
+	static GL_Begin_m9A48BD6A2DA850D54250EF638DF5EC61F83E293C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GL_Begin_m9A48BD6A2DA850D54250EF638DF5EC61F83E293C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::Begin(System.Int32)");
+	_il2cpp_icall_func(___mode0);
+}
+// System.Void UnityEngine.GL::End()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_End_m7EDEB843BD9F7E00BD838FDE074B4688C55C0755 (const RuntimeMethod* method)
+{
+	typedef void (*GL_End_m7EDEB843BD9F7E00BD838FDE074B4688C55C0755_ftn) ();
+	static GL_End_m7EDEB843BD9F7E00BD838FDE074B4688C55C0755_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GL_End_m7EDEB843BD9F7E00BD838FDE074B4688C55C0755_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::End()");
+	_il2cpp_icall_func();
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // UnityEngine.GameObject UnityEngine.GameObject::CreatePrimitive(UnityEngine.PrimitiveType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * GameObject_CreatePrimitive_mA4D35085D817369E4A513FF31D745CEB27B07F6A (int32_t ___type0, const RuntimeMethod* method)
 {
@@ -31096,6 +31186,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetOverrideTag_m773D4D6BE26AA7E
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Material_SetOverrideTag_m773D4D6BE26AA7E1200C76571C6DABC4A53002DB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::SetOverrideTag(System.String,System.String)");
 	_il2cpp_icall_func(__this, ___tag0, ___val1);
+}
+// System.Boolean UnityEngine.Material::SetPass(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Material_SetPass_m4BE0A8FCBF158C83522AA2F69118A2FE33683918 (Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * __this, int32_t ___pass0, const RuntimeMethod* method)
+{
+	typedef bool (*Material_SetPass_m4BE0A8FCBF158C83522AA2F69118A2FE33683918_ftn) (Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 *, int32_t);
+	static Material_SetPass_m4BE0A8FCBF158C83522AA2F69118A2FE33683918_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Material_SetPass_m4BE0A8FCBF158C83522AA2F69118A2FE33683918_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::SetPass(System.Int32)");
+	bool retVal = _il2cpp_icall_func(__this, ___pass0);
+	return retVal;
 }
 // System.Void UnityEngine.Material::CopyPropertiesFromMaterial(UnityEngine.Material)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_CopyPropertiesFromMaterial_mC80A6EB2A756B079CEEDEBD5F03A36A6DD18227A (Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * __this, Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___mat0, const RuntimeMethod* method)

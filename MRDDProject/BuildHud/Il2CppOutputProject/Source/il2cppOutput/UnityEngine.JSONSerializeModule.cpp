@@ -77,11 +77,15 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral24792AA3923C4CD185519D3D445ECFD0801DB1C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral2A4A3F0C9BF43F7184958A8FA6223424E89D16CE;
 IL2CPP_EXTERN_C String_t* _stringLiteral66E179247F6AC3640942FBCA80B92DD2614F4C3D;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B032D25015EBDC7DE0935C06C9A0F540B2BCD28;
+IL2CPP_EXTERN_C String_t* _stringLiteral94321C1A444929C3AF6C2F8853A342D850A69D9B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD0A3E7F81A9885E99049D1CAE0336D269D5E47A9;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_mD891C9EDB2D0B95536CD2A3F2BEFF3DCFEE30A45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_0_0_0_var;
+IL2CPP_EXTERN_C const uint32_t JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t JsonUtility_FromJson_mD891C9EDB2D0B95536CD2A3F2BEFF3DCFEE30A45_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA_MetadataUsageId;
 struct Exception_t_marshaled_com;
@@ -831,6 +835,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m9DC58ADF0512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mF4626905368D6558695A823466A1AF65EADB9923 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
 // System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonUtility_FromJsonInternal_mE4EF48FC77B4B25155BB039E477D4181E9E55E69 (String_t* ___json0, RuntimeObject * ___objectToOverwrite1, Type_t * ___type2, const RuntimeMethod* method);
+// System.Type System.Object::GetType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60 (RuntimeObject * __this, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1062,6 +1068,117 @@ IL_0067:
 	{
 		RuntimeObject * L_20 = V_1;
 		return L_20;
+	}
+}
+// System.Void UnityEngine.JsonUtility::FromJsonOverwrite(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A (String_t* ___json0, RuntimeObject * ___objectToOverwrite1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B8_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		String_t* L_0 = ___json0;
+		bool L_1 = String_IsNullOrEmpty_m06A85A206AC2106D1982826C5665B9BD35324229(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		goto IL_005f;
+	}
+
+IL_000d:
+	{
+		RuntimeObject * L_3 = ___objectToOverwrite1;
+		V_1 = (bool)((((RuntimeObject*)(RuntimeObject *)L_3) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_5 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_5, _stringLiteral7B032D25015EBDC7DE0935C06C9A0F540B2BCD28, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A_RuntimeMethod_var);
+	}
+
+IL_0020:
+	{
+		RuntimeObject * L_6 = ___objectToOverwrite1;
+		if (!((Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 *)IsInstClass((RuntimeObject*)L_6, Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		RuntimeObject * L_7 = ___objectToOverwrite1;
+		if (((MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 *)IsInstClass((RuntimeObject*)L_7, MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429_il2cpp_TypeInfo_var)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		RuntimeObject * L_8 = ___objectToOverwrite1;
+		G_B8_0 = ((((int32_t)((!(((RuntimeObject*)(ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734 *)((ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734 *)IsInstClass((RuntimeObject*)L_8, ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003f;
+	}
+
+IL_003e:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_003f:
+	{
+		G_B10_0 = G_B8_0;
+		goto IL_0042;
+	}
+
+IL_0041:
+	{
+		G_B10_0 = 0;
+	}
+
+IL_0042:
+	{
+		V_2 = (bool)G_B10_0;
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_10 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_10, _stringLiteral94321C1A444929C3AF6C2F8853A342D850A69D9B, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, JsonUtility_FromJsonOverwrite_mBBBDCD9B8641C1CFC6DBF22778AD399D5325D90A_RuntimeMethod_var);
+	}
+
+IL_0051:
+	{
+		String_t* L_11 = ___json0;
+		RuntimeObject * L_12 = ___objectToOverwrite1;
+		RuntimeObject * L_13 = ___objectToOverwrite1;
+		NullCheck(L_13);
+		Type_t * L_14 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(L_13, /*hidden argument*/NULL);
+		JsonUtility_FromJsonInternal_mE4EF48FC77B4B25155BB039E477D4181E9E55E69(L_11, L_12, L_14, /*hidden argument*/NULL);
+	}
+
+IL_005f:
+	{
+		return;
 	}
 }
 #ifdef __clang__
