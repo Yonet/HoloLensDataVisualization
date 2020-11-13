@@ -7,7 +7,7 @@
 - [Unity3D](https://unity.com/)
 - [Bing Maps Unity SDK](https://github.com/Microsoft/MapsSDK-Unity?WT.mc_id=github-mrdd-ayyonet)
 - [Mixed Reality Toolkit Unity](https://github.com/microsoft/MixedRealityToolkit-Unity?WT.mc_id=github-mrdd-ayyonet)
-- [HoloLens 2 & Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=github-mrdd-ayyonet)
+- [HoloLens 2 & Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/?WT.mc_id=spatial-0000-ayyonet)
 
 ## Overview
 
